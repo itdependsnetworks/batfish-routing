@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "batfish_routing"
+version = "0.1.0"
+description = ""
+authors = ["Jeff Kala <jeff.kala@networktocode.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ansible-core = "^2.13.3"
+pybatfish = "^2022.9.7"
+
+[tool.poetry.dev-dependencies]
+yamllint = "^1.27.1"
+toml = "^0.10.2"
+invoke = "^1.7.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
