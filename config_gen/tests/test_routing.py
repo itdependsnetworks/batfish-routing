@@ -88,5 +88,5 @@ if __name__ == "__main__":
     ]
     for assertion in assert_list:
         test_protocols(assertion)
-    test_paths()
+    # test_paths()
     test_custom_checks()
